@@ -1,0 +1,9 @@
+{
+  "colorWeek": false,
+  "navbar": true,
+  "menu": true,
+  "lang": "zh-CN",
+  "footer": true,
+  "themeColor": "#165DFF",
+  "menuWidth": 220
+}
