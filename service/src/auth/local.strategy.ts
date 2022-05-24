@@ -23,7 +23,6 @@ export class LocalStorage extends PassportStrategy(Strategy) {
     const user = await this.userRepository.findOne({
       where: { userName },
     });
-    console.log(user, 'user');
     if (!user) {
       throw new ApiException(ApiErrCode.USER_NOT_EXIST);
     }

@@ -27,6 +27,6 @@ export class AuthService {
   }
 
   getUser(user) {
-    return this.userService.findOne(user.id);
+    return this.userService.findOne(user.userId);
   }
 }

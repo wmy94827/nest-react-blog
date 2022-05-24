@@ -60,7 +60,7 @@ function LoginForm(props: Props) {
       >
         <Input
           prefix={<IconUser />}
-          placeholder="用户名：admin"
+          placeholder="用户名"
           onPressEnter={onSubmitClick}
         />
       </Form.Item>
@@ -70,7 +70,7 @@ function LoginForm(props: Props) {
       >
         <Input.Password
           prefix={<IconLock />}
-          placeholder="密码：admin"
+          placeholder="密码"
           onPressEnter={onSubmitClick}
         />
       </Form.Item>

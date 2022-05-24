@@ -1,11 +1,8 @@
 import {
   Controller,
   Post,
-  Get,
   Body,
   Req,
-  Headers,
-  Res,
   UseInterceptors,
   UseGuards,
   ClassSerializerInterceptor,
