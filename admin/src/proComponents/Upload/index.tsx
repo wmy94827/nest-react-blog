@@ -44,7 +44,7 @@ function ProUpload(props: Props) {
     <Upload
       onChange={handleChange}
       showUploadList={false}
-      action={`/baseUrl/file/upload`}
+      action={`${env.VITE_BASE_URL}/file/upload`}
     >
       <div className="w-200px h-100px">
         {value ? (
